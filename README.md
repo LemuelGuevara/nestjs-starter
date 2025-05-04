@@ -5,7 +5,7 @@ A simple NestJS starter that utilizes Drizzle for ORM and Better-Auth for authen
 ## Features
 
 - NestJS with Fastify enabled as default
-- Drizzle ORM for database with postgres as default
+- Drizzle ORM for database with Postgres as default
 - Better-Auth for authentication
 
 ## Getting Started
@@ -14,7 +14,7 @@ Before starting make sure to set the following environment variables in a `.env`
 
 ```env
 # PostgreSQL database connection string
-DATABASE_URL=postgresql://postgres:postgres@localhost:5432/nestjs # Docker compose but can be any pg url
+DATABASE_URL=your-posgres-url
 
 # Secret used by Better Auth (keep this safe in production)
 BETTER_AUTH_SECRET=your-better-auth-secret
