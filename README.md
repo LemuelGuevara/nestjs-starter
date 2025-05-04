@@ -59,3 +59,10 @@ pnpm drizzle-kit studio --port 4000 # pnpm
 npx drizzle-kit studio --port 4000 # npm
 bunx drizzle-kit studio --port 4000 # bun
 ```
+
+## Better-Auth OpenAPI Reference
+Navigate to ```/api/auth/reference/``` to view the API endpoints. Existing endpoints such sign-in and sign-out can be tested within there. 
+
+```bash
+DOMAIN/api/auth/reference
+```
